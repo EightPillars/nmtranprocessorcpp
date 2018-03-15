@@ -3,8 +3,15 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
+      <file path="$PROJECT_DIR$/generated" />
+      <file path="$PROJECT_DIR$/grammar" />
       <file path="$PROJECT_DIR$/src" />
       <file path="$PROJECT_DIR$/test" />
     </sourceRoots>
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/antlr" />
+      <file path="$PROJECT_DIR$/cmake" />
+      <file path="$PROJECT_DIR$/thirdparty" />
+    </excludeRoots>
   </component>
 </project>
