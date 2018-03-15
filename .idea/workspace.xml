@@ -23,13 +23,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="antlr4cpp_fetcher" targetName="test" />
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_nmtranparserns" />
       <config projectName="antlr4cpp_fetcher" targetName="nmtranparserlib" />
-      <config projectName="antlr4cpp_fetcher" targetName="demo" />
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
       <config projectName="antlr4cpp_fetcher" targetName="nmtranparser" />
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_nmtranparserns" />
+      <config projectName="antlr4cpp_fetcher" targetName="demo" />
       <config projectName="antlr4cpp_fetcher" targetName="parser" />
+      <config projectName="antlr4cpp_fetcher" targetName="test" />
       <config projectName="antlr4cpp_fetcher" targetName="Test" />
     </generated>
   </component>
@@ -40,21 +40,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5342b373-048a-44c0-8b36-60c8409fce27" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake/ExternalAntlr4Cpp.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/grammar/NmtranLexer.g4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/grammar/NmtranParser.g4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/module.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/antlr/antlr-4.7.1-complete.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/sqr.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sqr.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/CMakeLists.txt" afterPath="$PROJECT_DIR$/test/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/test/nmtranpreproctest.cpp" afterPath="$PROJECT_DIR$/test/nmtranpreproctest.cpp" />
+      <change beforePath="$PROJECT_DIR$/test/nmtranparsertest.cpp" afterPath="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,21 +54,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <file leaf-file-name="ParseTreeVisitor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="-61">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/module.cpp">
+      <file leaf-file-name="AbstractParseTreeVisitor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/AbstractParseTreeVisitor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="-1532">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,7 +77,7 @@
       <file leaf-file-name="nmtranpreproctest.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/nmtranpreproctest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-371">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#91#110#0" expanded="true" />
@@ -99,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nmtranparsertest.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nmtranparsertest.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/nmtranparsertest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="623">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="e#90#109#0" expanded="true" />
               </folding>
@@ -111,47 +98,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <file leaf-file-name="nmtranpreproc.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="158">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file leaf-file-name="nmtranpreproc.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expected_processed_nm.ctl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/expected_processed_nm.ctl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="113" column="47" lean-forward="false" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>nullptr</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,10 +142,11 @@
         <option value="$PROJECT_DIR$/generated/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
         <option value="$PROJECT_DIR$/test/nmtranpreproctest.cpp" />
         <option value="$PROJECT_DIR$/test/module.cpp" />
         <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserVisitor.h" />
+        <option value="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
       </list>
     </option>
   </component>
@@ -183,6 +156,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="609" />
     <option name="y" value="105" />
@@ -232,6 +206,93 @@
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
               <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp_generated_src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp_generated_src" type="462c0819:PsiDirectoryNode" />
+              <item name="nmtranparserns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4-runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="libantlr4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="nmtranpreproc" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="externals" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="antlr4cpp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="antlr4cpp_fetcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -340,44 +401,46 @@
       <workItem from="1521013920080" duration="11902000" />
       <workItem from="1521064272476" duration="5761000" />
       <workItem from="1521102892836" duration="6712000" />
-      <workItem from="1521118313775" duration="1515000" />
+      <workItem from="1521118313775" duration="1582000" />
+      <workItem from="1521136507334" duration="379000" />
+      <workItem from="1521144785651" duration="5303000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.03.14 at 12h 06m 37s.xml">
+    <history-entry file="Tests - 2018.03.15 at 20h 55m 47s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.14 at 12h 06m 47s.xml">
+    <history-entry file="Tests - 2018.03.15 at 20h 57m 26s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.14 at 12h 08m 02s.xml">
+    <history-entry file="Tests - 2018.03.15 at 20h 57m 54s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.14 at 12h 08m 57s.xml">
+    <history-entry file="Tests - 2018.03.15 at 20h 58m 06s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.14 at 12h 09m 16s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 06m 02s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.15 at 10h 28m 43s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 06m 16s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.15 at 13h 22m 04s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 07m 07s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.15 at 13h 28m 45s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 23m 49s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.15 at 13h 29m 10s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 26m 45s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Tests - 2018.03.15 at 13h 30m 45s.xml">
+    <history-entry file="Tests - 2018.03.15 at 21h 33m 32s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29202000" />
+    <option name="totallyTimeSpent" value="34951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="609" y="105" width="1708" height="960" extended-state="0" />
@@ -385,24 +448,24 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22635135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2713964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2713964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20433255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -413,100 +476,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/nmtranparsertest.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/nmtranparsertest.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/nmtranparsertest.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/nmtranpreproctest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#91#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqr.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/sqr.h" />
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqr.h" />
-    <entry file="file://$PROJECT_DIR$/src/sqr.cpp" />
-    <entry file="file:///opt/local/include/boost/test/tools/old/interface.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test/expected_processed_nm.ctl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_example.ctl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParserBaseListener.h" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParserBaseListener.cpp" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParserBaseVisitor.cpp" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParserListener.cpp" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParserVisitor.cpp" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranParser.cpp" />
-    <entry file="file://$PROJECT_DIR$/generated/NmtranLexer.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake/ExternalAntlr4Cpp.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3345">
@@ -516,21 +508,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generated/main.cpp" />
     <entry file="file://$PROJECT_DIR$/generated/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranLexer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -614,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -630,17 +599,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/expected_processed_nm.ctl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
+        <state relative-caret-position="1695">
           <caret line="113" column="47" lean-forward="false" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
           <folding />
         </state>
@@ -654,19 +615,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/nmtranparsertest.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranLexer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/CharStream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/ANTLRInputStream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/antlr4-common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="131" column="24" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
           <folding>
-            <element signature="e#90#109#0" expanded="true" />
+            <element signature="e#3338#3347#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/share/doc/libantlr4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/ANTLRErrorStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/DefaultErrorStrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserBaseListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/Parser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="157" column="57" lean-forward="false" selection-start-line="157" selection-start-column="40" selection-end-line="157" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/tree/ParseTreeVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/AbstractParseTreeVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1532">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserBaseVisitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserVisitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserBaseVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2135">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-845">
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/include/antlr4-runtime/tree/AbstractParseTreeVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeListener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nmtranpreproc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/nmtranpreproctest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-371">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#91#110#0" expanded="true" />
@@ -674,11 +838,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/test/nmtranparsertest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="623">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#90#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
