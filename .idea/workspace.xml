@@ -23,13 +23,13 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="antlr4cpp_fetcher" targetName="nmtranparserlib" />
-      <config projectName="antlr4cpp_fetcher" targetName="nmtranparser" />
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
-      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_nmtranparserns" />
-      <config projectName="antlr4cpp_fetcher" targetName="demo" />
-      <config projectName="antlr4cpp_fetcher" targetName="parser" />
       <config projectName="antlr4cpp_fetcher" targetName="test" />
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp_generation_nmtranparserns" />
+      <config projectName="antlr4cpp_fetcher" targetName="nmtranparserlib" />
+      <config projectName="antlr4cpp_fetcher" targetName="demo" />
+      <config projectName="antlr4cpp_fetcher" targetName="antlr4cpp" />
+      <config projectName="antlr4cpp_fetcher" targetName="nmtranparser" />
+      <config projectName="antlr4cpp_fetcher" targetName="parser" />
       <config projectName="antlr4cpp_fetcher" targetName="Test" />
     </generated>
   </component>
@@ -41,7 +41,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5342b373-048a-44c0-8b36-60c8409fce27" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test/nmtranparsertest.cpp" afterPath="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,6 +54,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ParseTreeVisitor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nmtranparsertest.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nmtranparsertest.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/nmtranparsertest.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="623">
@@ -94,6 +104,16 @@
               <folding>
                 <element signature="e#90#109#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,9 +138,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NULL</find>
+    </findStrings>
     <replaceStrings>
       <replace>nullptr</replace>
     </replaceStrings>
@@ -140,13 +173,13 @@
         <option value="$PROJECT_DIR$/cmake/ExternalAntlr4Cpp.cmake" />
         <option value="$PROJECT_DIR$/generated/main.cpp" />
         <option value="$PROJECT_DIR$/generated/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test/nmtranpreproctest.cpp" />
         <option value="$PROJECT_DIR$/test/module.cpp" />
         <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns/NmtranParserVisitor.h" />
         <option value="$PROJECT_DIR$/test/nmtranparsertest.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -403,14 +436,11 @@
       <workItem from="1521102892836" duration="6712000" />
       <workItem from="1521118313775" duration="1582000" />
       <workItem from="1521136507334" duration="379000" />
-      <workItem from="1521144785651" duration="5303000" />
+      <workItem from="1521144785651" duration="5845000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.03.15 at 20h 55m 47s.xml">
-      <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="Tests - 2018.03.15 at 20h 57m 26s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
@@ -438,9 +468,12 @@
     <history-entry file="Tests - 2018.03.15 at 21h 33m 32s.xml">
       <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="Tests - 2018.03.15 at 22h 03m 35s.xml">
+      <configuration name="Tests" configurationId="CMakeBoostTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34951000" />
+    <option name="totallyTimeSpent" value="35493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="609" y="105" width="1708" height="960" extended-state="0" />
@@ -448,11 +481,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22635135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2713964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2713964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20433255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -611,30 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -845,6 +854,30 @@
           <folding>
             <element signature="e#90#109#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
