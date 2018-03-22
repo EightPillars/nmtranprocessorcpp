@@ -13,9 +13,6 @@ find_package (Boost COMPONENTS system filesystem REQUIRED)
 # add antrl4cpp artifacts to project environment
 include_directories( ${ANTLR4CPP_INCLUDE_DIRS} )
 link_directories( ${ANTLR4CPP_LIBS} )
-message(STATUS "Found antlr4cpp libs: ${ANTLR4CPP_LIBS} and includes: ${ANTLR4CPP_INCLUDE_DIRS} ")
-
-message(STATUS "Inclide dir: ${antlr4cpp_include_dirs_nmtranparser}")
 
 set(CMAKE_DEBUG_TARGET_PROPERTIES
         INCLUDE_DIRECTORIES
