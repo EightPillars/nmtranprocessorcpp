@@ -15,7 +15,7 @@ include_directories (
         ${CMAKE_SOURCE_DIR}/src
         ${Boost_INCLUDE_DIRS}
         )
-include_directories(${CMAKE_SOURCE_DIR}/cmake-build-debug/antlr4cpp_generated_src/nmtranparserns)
+include_directories(${CMAKE_SOURCE_DIR}/antlr4cpp_generated_src/nmtranparserns)
 
 set(CMAKE_DEBUG_TARGET_PROPERTIES
         INCLUDE_DIRECTORIES
@@ -27,7 +27,7 @@ set(CMAKE_DEBUG_TARGET_PROPERTIES
 
 add_definitions (-DBOOST_TEST_DYN_LINK)
 
-add_executable (Test module.cpp nmtranpreproctest.cpp nmtranparsertest.cpp module.cpp)
+add_executable (Test module.cpp nmtranpreproctest.cpp nmtranparsertest.cpp module.cpp inja_test.cpp)
 
 target_link_libraries (Test
         nmtranparserlib

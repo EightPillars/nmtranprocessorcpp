@@ -66,3 +66,29 @@ BOOST_AUTO_TEST_CASE(ParserTest)
 
 //    compareFiles("expected_processed_nm.ctl", temp.native());
 }
+
+BOOST_AUTO_TEST_CASE(TmplTest)
+{
+//    boost::filesystem::path temp = boost::filesystem::unique_path();
+//    std::ofstream ostr(temp.native());
+    std::string f_name{"expected_processed_nm.ctl"};
+    BOOST_REQUIRE_EQUAL(true, boost::filesystem::exists(f_name));
+    std::ifstream istr{f_name};
+    BOOST_REQUIRE_EQUAL(true, istr.is_open());
+    antlr4::ANTLRInputStream input(istr);
+    nmtranparserns::NmtranLexer lexer(&input);
+    antlr4::CommonTokenStream charStream(&lexer);
+    nmtranparserns::NmtranParser parser{&charStream};
+    std::unique_ptr<MyParserListener> lsnr(new MyParserListener());
+    parser.addParseListener(lsnr.get());
+    auto tree = parser.nmModel();
+    istr.close();
+    auto lastNum = lsnr->getNumber();
+    BOOST_CHECK_EQUAL("1.0", lastNum);
+
+//    std::cout << tree->toStringTree(&parser) << std::endl << std::endl;
+
+//    ostr.close();
+
+//    compareFiles("expected_processed_nm.ctl", temp.native());
+}

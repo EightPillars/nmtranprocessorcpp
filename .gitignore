@@ -1,1 +1,7 @@
 cmake-build-debug/
+Makefile
+antlr4cpp_generated_src/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+externals/
