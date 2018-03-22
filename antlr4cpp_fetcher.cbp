@@ -316,9 +316,6 @@
 			<Option target="nmtranparser"/>
 			<Option target="nmtranparserlib"/>
 		</Unit>
-		<Unit filename="/Users/stumoodie/CLionProjects/nmtranpreproc/test/inja_test.cpp">
-			<Option target="Test"/>
-		</Unit>
 		<Unit filename="/Users/stumoodie/CLionProjects/nmtranpreproc/test/module.cpp">
 			<Option target="Test"/>
 		</Unit>

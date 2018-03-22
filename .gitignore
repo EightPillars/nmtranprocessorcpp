@@ -5,3 +5,5 @@ CMakeCache.txt
 CMakeFiles/
 *.cmake
 externals/
+test/Test
+*.a

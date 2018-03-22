@@ -27,7 +27,7 @@ set(CMAKE_DEBUG_TARGET_PROPERTIES
 
 add_definitions (-DBOOST_TEST_DYN_LINK)
 
-add_executable (Test module.cpp nmtranpreproctest.cpp nmtranparsertest.cpp module.cpp inja_test.cpp)
+add_executable (Test module.cpp nmtranpreproctest.cpp nmtranparsertest.cpp module.cpp)
 
 target_link_libraries (Test
         nmtranparserlib
