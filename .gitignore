@@ -9,3 +9,5 @@ test/Test
 *.a
 .idea/
 src/nmtranparser
+.DS_Store
+Testing
