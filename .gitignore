@@ -8,3 +8,4 @@ externals/
 test/Test
 *.a
 .idea/
+src/nmtranparser
